@@ -33,9 +33,9 @@ public class Student {
 	public String getName() {
 		return name;
 	}
-	public void setName(String name) {
-		this.name = name;
-	}
+//	public void setName(String name) {
+//		this.name = name;
+//	}
 	public String getRollNumber() {
 		return rollNumber;
 	}
@@ -64,6 +64,10 @@ public class Student {
 	public String toString() {
 		return "Student [id=" + id + ", name=" + name + ", rollNumber=" + rollNumber + ", department=" + department
 				+ ", email=" + email + ", year=" + year + "]";
+	}
+	public void setName(String name) {
+		this.name=name;
+		
 	}
 	
 	

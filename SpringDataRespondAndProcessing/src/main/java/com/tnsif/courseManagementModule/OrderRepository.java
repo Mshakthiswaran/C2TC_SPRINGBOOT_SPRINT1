@@ -1,0 +1,7 @@
+package com.tnsif.courseManagementModule;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface OrderRepository extends JpaRepository<Order, Long> {
+
+}
